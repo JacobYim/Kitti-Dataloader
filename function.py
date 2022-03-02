@@ -4,7 +4,6 @@ import os
 import sys
 import cv2
 import pykitti
-import tensorflow as tf
 from sklearn.linear_model import RANSACRegressor
 from scipy import stats
 from time import sleep

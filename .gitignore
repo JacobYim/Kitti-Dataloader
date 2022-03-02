@@ -2,3 +2,7 @@ src/*
 pcl/*
 venv/
 __pycache__/*
+results_dgm
+results_ogm
+ogm_results.zip
+dgm_results.zip
