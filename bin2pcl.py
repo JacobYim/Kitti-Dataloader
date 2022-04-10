@@ -1,12 +1,13 @@
 import numpy as np
 import open3d as o3d
 import os
+import sys
 
 # file_dir = os.path.dirname(os.path.realpath(__file__))
 file_dir = os.curdir
 print(file_dir)
-src_dir = file_dir+"/src/2011_09_26/2011_09_26_drive_0001_sync/velodyne_points/data"
-dist_dir =  file_dir+"/pcl"
+src_dir = file_dir+"/"+sys.argv[1]
+dist_dir =  file_dir+"/"+sys.argv[2]
 
 if not os.path.isdir(dist_dir) :
 	os.mkdir(dist_dir) 
